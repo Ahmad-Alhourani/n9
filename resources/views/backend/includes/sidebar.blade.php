@@ -10,6 +10,12 @@
             </li>
 
 
+        {{--start_Helloo_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/helloos')) }}" href=" {{ route('admin.helloo.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.helloos') }}</a>
+            </li>
+            {{--end_Helloo_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

@@ -16,4 +16,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//start_Helloo_start
+Route::resource('helloo', 'API\HellooAPIController');
+
+//end_Helloo_end
+
 //*****Do Not Delete Me
